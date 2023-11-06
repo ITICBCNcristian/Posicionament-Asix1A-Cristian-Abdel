@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-bottom: 40px; /* Agrega espacio entre el header y el nav */
+}
+
+nav {
+    background-color: gray;
+    position: sticky;
+    top: 100px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    margin-top: 120px; /* Evitar que el contingut sigui ocultat per la capçalera */
+}
+
+section {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
